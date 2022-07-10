@@ -1,1 +1,1 @@
-# internetShop
+# internetShop. Весь код находится в ветке master. Приложение выполнено с применением библиотеки React + Redux. 

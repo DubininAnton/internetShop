@@ -1,0 +1,56 @@
+.centerRight {
+    display: grid;
+    grid-template-rows: 452px 452px;
+    grid-template-columns: repeat(4, 258px);
+    row-gap: 16px;
+    &__card {
+        width: 258px;
+        height: 452px;
+        cursor: pointer;
+        transition: all .3s;
+        &:hover {
+            box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);;
+        }
+    }
+    &__img {
+        width: 227px;
+        height: 224px;
+        margin: 16px 16px 12px 16px;
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 16px;
+        margin-right: 16px;
+        margin-left: 16px;
+        text-align: justify;
+        margin-bottom: 8px;
+        color: blue;
+    }
+    &__price {
+        font-weight: 700;
+        font-size: 24px;
+        margin-right: 16px;
+        margin-left: 16px;
+        margin-bottom: 8px;
+        color: blue;
+    }
+    &__message {
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+    }
+
+}
+
+.centerRightBasket {
+    display: grid;
+    grid-template-rows: repeat(auto-fill);
+    grid-template-columns: repeat(3, 328px);
+    row-gap: 16px;
+    column-gap: 16px;
+    grid
+    &__card {
+        width: 328px;
+
+    }
+}

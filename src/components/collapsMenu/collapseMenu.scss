@@ -1,0 +1,12 @@
+.accordion-items {
+    margin-top: 5px;
+    cursor: pointer;
+    a {
+        color: blue;
+        cursor: pointer;
+        &:hover {
+            color:green;
+            font-size: 24px;
+        }
+    }
+}

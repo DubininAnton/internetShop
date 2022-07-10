@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.center {
+  display: flex;
+  margin-top: 16px;
+  &__left {
+    width: 355px;
+  }
+  &__right {
+    width: 1137px;
+  }
+}

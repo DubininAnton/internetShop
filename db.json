@@ -1,0 +1,34 @@
+{
+  "filters": [
+    {
+      "element": "clothing",
+      "alt": "men's clothing",
+      "height": "56px",
+      "width": "146px"
+    },
+    {
+      "element": "intertaiment",
+      "alt": "jewelery",
+      "height": "56px",
+      "width": "124px"
+    },
+    {
+      "element": "electrical",
+      "alt": "electronics",
+      "height": "56px",
+      "width": "130px"
+    },
+    {
+      "element": "all",
+      "alt": "all",
+      "height": "56px",
+      "width": "130px"
+    }
+  ],
+  "person": [
+    
+  ],
+  "emailAndProducts": [
+    
+  ]
+}

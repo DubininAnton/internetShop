@@ -1,0 +1,65 @@
+.container {
+    width: 1492px;
+    margin: 0 auto;
+  }
+
+ul {
+    list-style: none;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__img {
+        cursor: pointer;
+        border: none;
+        transition: all 0.3s;
+        border-radius: 10px;
+        &:hover {
+            transform: scale(1.1);
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);  
+        }
+    }
+    .clothing {
+        background: url('../../resourse/img/clothing.png');
+    }
+    .intertaiment {
+        background: url('../../resourse/img/intertaiment.png');
+    }
+    .music {
+        background: url('../../resourse/img/music.png');
+    }
+    .sport {
+        background: url('../../resourse/img/sport.png');
+    }
+    .pets {
+        background: url('../../resourse/img/pets.png');
+    }
+    .kitchen {
+        background: url('../../resourse/img/kitchen.png');
+    }
+    .travel {
+        background: url('../../resourse/img/travel.png');
+    }
+    .growing {
+        background: url('../../resourse/img/growing.png');
+    }
+    .electrical {
+        background: url('../../resourse/img/electrical.png');
+    }
+    .mother {
+        background: url('../../resourse/img/mother.png');
+    }
+    .toys {
+        background: url('../../resourse/img/toys.png');
+    }
+    .vintage {
+        background: url('../../resourse/img/vintage.png');
+    }
+}
+
+.active {
+    transform: scale(1.1);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
+}
